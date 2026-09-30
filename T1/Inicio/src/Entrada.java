@@ -12,7 +12,9 @@ public class Entrada {
 
         // letras
         char letra = 'J';
-        letra = 'J';
+        // convertir una variable de (primitiva a compleja)
+        Character letraCompleja = letra;
+        letra = 'F';
 
         // numero sin decimales usamos (int)
         int edad = 18;
@@ -26,6 +28,13 @@ public class Entrada {
 
         // solo dos posibilidades (true o false)
         boolean acierto = true;
+
+        // la clase object es como la que engloba todo (claase pade de java)
+        Object cosa = "cualquier cosa";
+
+        // no mutables
+        final String DNI = "1234B";
+        System.out.println(DNI);
 
         System.out.println("Hola mundo");
         System.out.println("siguiete linea");
